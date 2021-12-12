@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.RunnerTest" time="5.637" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="E:\IT academy\Финальный проект\SimpleFinal\target\test-classes;E:\IT academy\Финальный проект\SimpleFinal\target\classes;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\User\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\User\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\User\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\User\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\User\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\User\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\User\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\User\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\User\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.0-M1\junit-jupiter-params-5.8.0-M1.jar;C:\Users\User\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.0-M1\junit-vintage-engine-5.8.0-M1.jar;C:\Users\User\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\User\.m2\repository\com\codeborne\selenide\5.23.3\selenide-5.23.3.jar;C:\Users\User\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\User\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\User\.m2\repository\org\rauschig\jarchivelib\1.2.0\jarchivelib-1.2.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1\httpclient5-5.1.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.1\httpcore5-5.1.1.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.1\httpcore5-h2-5.1.1.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\User\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\User\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\User\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\User\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\User\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\User\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\User\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\User\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\User\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\User\.m2\repository\io\rest-assured\json-schema-validator\4.4.0\json-schema-validator-4.4.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\User\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\User\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\User\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\User\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\User\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\User\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\User\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\User\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\User\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\User\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\User\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\User\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit5\2.15.0\allure-junit5-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit-platform\2.15.0\allure-junit-platform-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.15.0\allure-test-filter-2.15.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.0\junit-platform-launcher-1.8.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-maven\2.10.0\allure-maven-2.10.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-core\3.3.9\maven-core-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-model\3.3.9\maven-model-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-settings\3.3.9\maven-settings-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-settings-builder\3.3.9\maven-settings-builder-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-builder-support\3.3.9\maven-builder-support-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-repository-metadata\3.3.9\maven-repository-metadata-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-artifact\3.3.9\maven-artifact-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-plugin-api\3.3.9\maven-plugin-api-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-model-builder\3.3.9\maven-model-builder-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-aether-provider\3.3.9\maven-aether-provider-3.3.9.jar;C:\Users\User\.m2\repository\org\eclipse\aether\aether-spi\1.0.2.v20150114\aether-spi-1.0.2.v20150114.jar;C:\Users\User\.m2\repository\org\eclipse\aether\aether-impl\1.0.2.v20150114\aether-impl-1.0.2.v20150114.jar;C:\Users\User\.m2\repository\org\eclipse\aether\aether-api\1.0.2.v20150114\aether-api-1.0.2.v20150114.jar;C:\Users\User\.m2\repository\org\eclipse\aether\aether-util\1.0.2.v20150114\aether-util-1.0.2.v20150114.jar;C:\Users\User\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.2\org.eclipse.sisu.plexus-0.3.2.jar;C:\Users\User\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\User\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\User\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.2\org.eclipse.sisu.inject-0.3.2.jar;C:\Users\User\.m2\repository\com\google\inject\guice\4.0\guice-4.0-no_aop.jar;C:\Users\User\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\User\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.21\plexus-interpolation-1.21.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.22\plexus-utils-3.0.22.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.5.2\plexus-classworlds-2.5.2.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.6\plexus-component-annotations-1.6.jar;C:\Users\User\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\User\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\User\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\2.4\maven-reporting-impl-2.4.jar;C:\Users\User\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\User\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\User\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\User\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.6\maven-shared-utils-0.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.6\doxia-sink-api-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.6\doxia-logging-api-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-core\1.6\doxia-core-1.6.jar;C:\Users\User\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\User\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\User\.m2\repository\xmlunit\xmlunit\1.5\xmlunit-1.5.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.6\doxia-site-renderer-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.6\doxia-decoration-model-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.6\doxia-module-xhtml-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-module-fml\1.6\doxia-module-fml-1.6.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-velocity\1.1.7\plexus-velocity-1.1.7.jar;C:\Users\User\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\User\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\User\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\User\.m2\repository\sslext\sslext\1.2-0\sslext-1.2-0.jar;C:\Users\User\.m2\repository\org\apache\struts\struts-core\1.3.8\struts-core-1.3.8.jar;C:\Users\User\.m2\repository\antlr\antlr\2.7.2\antlr-2.7.2.jar;C:\Users\User\.m2\repository\org\apache\struts\struts-taglib\1.3.8\struts-taglib-1.3.8.jar;C:\Users\User\.m2\repository\org\apache\struts\struts-tiles\1.3.8\struts-tiles-1.3.8.jar;C:\Users\User\.m2\repository\commons-validator\commons-validator\1.4.1\commons-validator-1.4.1.jar;C:\Users\User\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\User\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\User\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\User\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\User\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.2\maven-plugin-annotations-3.2.jar;C:\Users\User\.m2\repository\org\apache\maven\plugins\maven-jxr-plugin\2.5\maven-jxr-plugin-2.5.jar;C:\Users\User\.m2\repository\org\apache\velocity\velocity\1.5\velocity-1.5.jar;C:\Users\User\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-jxr\2.5\maven-jxr-2.5.jar;C:\Users\User\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0\wagon-provider-api-1.0.jar;C:\Users\User\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\User\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="E:\JDK\jdk-11.0.10.9\bin"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire10922253201230671084\surefirebooter12252459672030669657.jar C:\Users\User\AppData\Local\Temp\surefire10922253201230671084 2021-12-12T18-57-56_364-jvmRun1 surefire11487791924616891188tmp surefire_018087609803181175313tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\IT academy\Финальный проект\SimpleFinal\target\test-classes;E:\IT academy\Финальный проект\SimpleFinal\target\classes;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\User\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\User\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\User\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\User\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\User\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\User\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\User\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\User\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\User\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.0-M1\junit-jupiter-params-5.8.0-M1.jar;C:\Users\User\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.0-M1\junit-vintage-engine-5.8.0-M1.jar;C:\Users\User\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\User\.m2\repository\com\codeborne\selenide\5.23.3\selenide-5.23.3.jar;C:\Users\User\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\User\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\User\.m2\repository\org\rauschig\jarchivelib\1.2.0\jarchivelib-1.2.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1\httpclient5-5.1.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.1\httpcore5-5.1.1.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.1\httpcore5-h2-5.1.1.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\User\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\User\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\User\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\User\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\User\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\User\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\User\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\User\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\User\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\User\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\User\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\User\.m2\repository\io\rest-assured\json-schema-validator\4.4.0\json-schema-validator-4.4.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\User\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\User\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\User\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\User\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\User\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\User\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\User\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\User\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\User\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\User\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\User\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\User\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\User\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit5\2.15.0\allure-junit5-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-junit-platform\2.15.0\allure-junit-platform-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-test-filter\2.15.0\allure-test-filter-2.15.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.0\junit-platform-launcher-1.8.0.jar;C:\Users\User\.m2\repository\io\qameta\allure\allure-maven\2.10.0\allure-maven-2.10.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-core\3.3.9\maven-core-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-model\3.3.9\maven-model-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-settings\3.3.9\maven-settings-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-settings-builder\3.3.9\maven-settings-builder-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-builder-support\3.3.9\maven-builder-support-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-repository-metadata\3.3.9\maven-repository-metadata-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-artifact\3.3.9\maven-artifact-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-plugin-api\3.3.9\maven-plugin-api-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-model-builder\3.3.9\maven-model-builder-3.3.9.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-aether-provider\3.3.9\maven-aether-provider-3.3.9.jar;C:\Users\User\.m2\repository\org\eclipse\aether\aether-spi\1.0.2.v20150114\aether-spi-1.0.2.v20150114.jar;C:\Users\User\.m2\repository\org\eclipse\aether\aether-impl\1.0.2.v20150114\aether-impl-1.0.2.v20150114.jar;C:\Users\User\.m2\repository\org\eclipse\aether\aether-api\1.0.2.v20150114\aether-api-1.0.2.v20150114.jar;C:\Users\User\.m2\repository\org\eclipse\aether\aether-util\1.0.2.v20150114\aether-util-1.0.2.v20150114.jar;C:\Users\User\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.2\org.eclipse.sisu.plexus-0.3.2.jar;C:\Users\User\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\User\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\User\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.2\org.eclipse.sisu.inject-0.3.2.jar;C:\Users\User\.m2\repository\com\google\inject\guice\4.0\guice-4.0-no_aop.jar;C:\Users\User\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\User\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.21\plexus-interpolation-1.21.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.22\plexus-utils-3.0.22.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.5.2\plexus-classworlds-2.5.2.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.6\plexus-component-annotations-1.6.jar;C:\Users\User\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\User\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\User\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\2.4\maven-reporting-impl-2.4.jar;C:\Users\User\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\User\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\User\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\User\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.6\maven-shared-utils-0.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.6\doxia-sink-api-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.6\doxia-logging-api-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-core\1.6\doxia-core-1.6.jar;C:\Users\User\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\User\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\User\.m2\repository\xmlunit\xmlunit\1.5\xmlunit-1.5.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.6\doxia-site-renderer-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.6\doxia-decoration-model-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.6\doxia-module-xhtml-1.6.jar;C:\Users\User\.m2\repository\org\apache\maven\doxia\doxia-module-fml\1.6\doxia-module-fml-1.6.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar;C:\Users\User\.m2\repository\org\codehaus\plexus\plexus-velocity\1.1.7\plexus-velocity-1.1.7.jar;C:\Users\User\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\User\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\User\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\User\.m2\repository\sslext\sslext\1.2-0\sslext-1.2-0.jar;C:\Users\User\.m2\repository\org\apache\struts\struts-core\1.3.8\struts-core-1.3.8.jar;C:\Users\User\.m2\repository\antlr\antlr\2.7.2\antlr-2.7.2.jar;C:\Users\User\.m2\repository\org\apache\struts\struts-taglib\1.3.8\struts-taglib-1.3.8.jar;C:\Users\User\.m2\repository\org\apache\struts\struts-tiles\1.3.8\struts-tiles-1.3.8.jar;C:\Users\User\.m2\repository\commons-validator\commons-validator\1.4.1\commons-validator-1.4.1.jar;C:\Users\User\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\User\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\User\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\User\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\User\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.2\maven-plugin-annotations-3.2.jar;C:\Users\User\.m2\repository\org\apache\maven\plugins\maven-jxr-plugin\2.5\maven-jxr-plugin-2.5.jar;C:\Users\User\.m2\repository\org\apache\velocity\velocity\1.5\velocity-1.5.jar;C:\Users\User\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\User\.m2\repository\org\apache\maven\maven-jxr\2.5\maven-jxr-2.5.jar;C:\Users\User\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0\wagon-provider-api-1.0.jar;C:\Users\User\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\User\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;"/>
+    <property name="allure.results.directory" value="E:\IT academy\Финальный проект\SimpleFinal\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="E:\JDK\jdk-11.0.10.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\IT academy\Финальный проект\SimpleFinal"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire10922253201230671084\surefirebooter12252459672030669657.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+9"/>
+    <property name="user.name" value="User"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="E:\IT academy\Финальный проект\SimpleFinal"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="E:\JDK\jdk-11.0.10.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\JDK\jdk-11.0.10.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;e:\Git\cmd;C:\Users\User\AppData\Local\Android\Sdk\tools;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;E:\apache-maven-3.8.1\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;e:\IntelliJ IDEA 2021.1\bin;;E:\jdk-14\bin;C:\Users\User\AppData\Local\Android\Sdk\tools;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;E:\apache-maven-3.8.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.10+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Authorization with token" classname="Authorization with token" time="4.094">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+server: nginx
+date: Sun, 12 Dec 2021 15:58:02 GMT
+content-type: application/json
+content-length: 78
+cache-control: no-cache, private
+x-robots-tag: noindex,nofollow
+x-powered-by: Unisender
+
+{
+    "success": true,
+    "result": {
+        "token": "a8206ad8ee0c34e10e1fdd0741efff07672a3660"
+    }
+}
+Token: a8206ad8ee0c34e10e1fdd0741efff07672a3660
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="Operation with contact list to send emails" classname="Contact list" time="0.672">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+server: nginx
+date: Sun, 12 Dec 2021 15:58:03 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+set-cookie: US_SESSID=641cc4a2c1b7eafc0f18d68964b01e95; path=/; secure; HttpOnly; SameSite=lax
+expires: Sun, 12 Dec 2021 15:58:03 GMT
+last-modified: Sun, 12 Dec 2021 15:58:03 GMT
+pragma: no-cache
+x-username: ryzhik.sasha@list.ru
+x-userid: 4594492
+x-session-id: 641cc4a2c1b7eafc0f18d68964b01e95
+cache-control: max-age=0, must-revalidate, private
+content-encoding: gzip
+x-robots-tag: noindex,nofollow
+x-powered-by: Unisender
+
+{
+    "result": {
+        "id": 184
+    }
+}
+New client id: 184
+HTTP/1.1 200 OK
+server: nginx
+date: Sun, 12 Dec 2021 15:58:04 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+set-cookie: US_SESSID=3e08c7d1c0e2ee8e45b48303ca3b187a; path=/; secure; HttpOnly; SameSite=lax
+expires: Sun, 12 Dec 2021 15:58:04 GMT
+last-modified: Sun, 12 Dec 2021 15:58:04 GMT
+pragma: no-cache
+x-username: ryzhik.sasha@list.ru
+x-userid: 4594492
+x-session-id: 3e08c7d1c0e2ee8e45b48303ca3b187a
+cache-control: max-age=0, must-revalidate, private
+content-encoding: gzip
+x-robots-tag: noindex,nofollow
+x-powered-by: Unisender
+
+{
+    "result": {
+        
+    }
+}
+HTTP/1.1 200 OK
+server: nginx
+date: Sun, 12 Dec 2021 15:58:04 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+set-cookie: US_SESSID=ce05061a96ed53703ac0cececc8441ab; path=/; secure; HttpOnly; SameSite=lax
+expires: Sun, 12 Dec 2021 15:58:04 GMT
+last-modified: Sun, 12 Dec 2021 15:58:04 GMT
+pragma: no-cache
+x-username: ryzhik.sasha@list.ru
+x-userid: 4594492
+x-session-id: ce05061a96ed53703ac0cececc8441ab
+cache-control: max-age=0, must-revalidate, private
+content-encoding: gzip
+x-robots-tag: noindex,nofollow
+x-powered-by: Unisender
+
+{
+    "result": {
+        
+    }
+}
+HTTP/1.1 200 OK
+server: nginx
+date: Sun, 12 Dec 2021 15:58:04 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+set-cookie: US_SESSID=8debdc6b7ce705d65b7a4bdc4ebba102; path=/; secure; HttpOnly; SameSite=lax
+expires: Sun, 12 Dec 2021 15:58:04 GMT
+last-modified: Sun, 12 Dec 2021 15:58:04 GMT
+pragma: no-cache
+x-username: ryzhik.sasha@list.ru
+x-userid: 4594492
+x-session-id: 8debdc6b7ce705d65b7a4bdc4ebba102
+cache-control: max-age=0, must-revalidate, private
+content-encoding: gzip
+x-robots-tag: noindex,nofollow
+x-powered-by: Unisender
+
+{
+    "result": [
+        {
+            "id": 11,
+            "title": "EZKsPDfwqD"
+        },
+        {
+            "id": 12,
+            "title": "dsFStkRoDE"
+        },
+        {
+            "id": 13,
+            "title": "CopmBggpmW"
+        },
+        {
+            "id": 14,
+            "title": "wTrGcYAeFn"
+        },
+        {
+            "id": 15,
+            "title": "UTuYtpDkPq"
+        },
+        {
+            "id": 16,
+            "title": "AYXEgmIsJX"
+        },
+        {
+            "id": 17,
+            "title": "bLLFgaWnjP"
+        },
+        {
+            "id": 18,
+            "title": "hWFBzraxdD"
+        },
+        {
+            "id": 19,
+            "title": "ylTlqdhImp"
+        },
+        {
+            "id": 20,
+            "title": "HfHukXPiie"
+        },
+        {
+            "id": 21,
+            "title": "TmeSRTKnjD"
+        },
+        {
+            "id": 22,
+            "title": "AvUUBUcImn"
+        },
+        {
+            "id": 23,
+            "title": "RRKUcVNArS"
+        },
+        {
+            "id": 24,
+            "title": "FICVjPUSlf"
+        },
+        {
+            "id": 25,
+            "title": "GNjoWFiwPo"
+        },
+        {
+            "id": 26,
+            "title": "EBbtagtZon"
+        },
+        {
+            "id": 27,
+            "title": "CjHoxziNtr"
+        },
+        {
+            "id": 28,
+            "title": "DkuXoffWVT"
+        },
+        {
+            "id": 29,
+            "title": "ieBQrBuiNJ"
+        },
+        {
+            "id": 30,
+            "title": "tfdKtrIfQi"
+        },
+        {
+            "id": 31,
+            "title": "cdvMiYWrDZ"
+        },
+        {
+            "id": 32,
+            "title": "MJTaHpTmhK"
+        },
+        {
+            "id": 33,
+            "title": "bvchRanXtX"
+        },
+        {
+            "id": 34,
+            "title": "UYZebIFGZw"
+        },
+        {
+            "id": 35,
+            "title": "LiGDwTOxJl"
+        },
+        {
+            "id": 36,
+            "title": "LzbFXbITVp"
+        },
+        {
+            "id": 38,
+            "title": "JrhdjJXPlG"
+        },
+        {
+            "id": 39,
+            "title": "xnxhmreDCq"
+        },
+        {
+            "id": 40,
+            "title": "ubxXUsMMuI"
+        },
+        {
+            "id": 41,
+            "title": "CfpcMZJUdb"
+        },
+        {
+            "id": 42,
+            "title": "aBsZKEzdtV"
+        },
+        {
+            "id": 43,
+            "title": "YPNiVkJmVG"
+        },
+        {
+            "id": 44,
+            "title": "mvXgegTqHt"
+        },
+        {
+            "id": 45,
+            "title": "sExqckmvYr"
+        },
+        {
+            "id": 46,
+            "title": "GYGqVQMOhb"
+        },
+        {
+            "id": 47,
+            "title": "itRbjgTeoO"
+        },
+        {
+            "id": 48,
+            "title": "kkTgFiqUOF"
+        },
+        {
+            "id": 49,
+            "title": "tJGjeYKHjx"
+        },
+        {
+            "id": 50,
+            "title": "vkgXJBNAFM"
+        },
+        {
+            "id": 51,
+            "title": "IGLMSBNCoS"
+        },
+        {
+            "id": 52,
+            "title": "xGscymCNfq"
+        },
+        {
+            "id": 53,
+            "title": "KBkLAdTrQa"
+        },
+        {
+            "id": 54,
+            "title": "KWAtAIXcTI"
+        },
+        {
+            "id": 55,
+            "title": "miNmJRbUlU"
+        },
+        {
+            "id": 56,
+            "title": "rJNsUWPbEJ"
+        },
+        {
+            "id": 57,
+            "title": "peSxVQmczX"
+        },
+        {
+            "id": 58,
+            "title": "BTHYspdvjf"
+        },
+        {
+            "id": 59,
+            "title": "eBQIHzhmrm"
+        },
+        {
+            "id": 60,
+            "title": "JdXWbcLhXF"
+        },
+        {
+            "id": 61,
+            "title": "gEGqoahfry"
+        },
+        {
+            "id": 62,
+            "title": "IcqLXcaKRC"
+        },
+        {
+            "id": 63,
+            "title": "ItNzjKRYgx"
+        },
+        {
+            "id": 64,
+            "title": "GfqhcZKHis"
+        },
+        {
+            "id": 65,
+            "title": "QLiRFtYvMV"
+        },
+        {
+            "id": 66,
+            "title": "dSDfFcnfAA"
+        },
+        {
+            "id": 67,
+            "title": "yjalfrRCdc"
+        },
+        {
+            "id": 68,
+            "title": "SmYVJmYXXv"
+        },
+        {
+            "id": 69,
+            "title": "idTeUjbALt"
+        },
+        {
+            "id": 70,
+            "title": "uXyqWcqoTF"
+        },
+        {
+            "id": 71,
+            "title": "YBxdpSUfWg"
+        },
+        {
+            "id": 72,
+            "title": "QPJGIosmsM"
+        },
+        {
+            "id": 74,
+            "title": "XybAnhinjc"
+        },
+        {
+            "id": 75,
+            "title": "kVLBCfoUeU"
+        },
+        {
+            "id": 77,
+            "title": "aWSjOZmDNI"
+        },
+        {
+            "id": 78,
+            "title": "UVgPFNSmSE"
+        },
+        {
+            "id": 79,
+            "title": "XPxXFfTCrQ"
+        },
+        {
+            "id": 112,
+            "title": "sTuhgnZmbZ"
+        },
+        {
+            "id": 147,
+            "title": "aRxEnoOSum"
+        },
+        {
+            "id": 182,
+            "title": "wlMRLzqNBl"
+        },
+        {
+            "id": 183,
+            "title": "TSZIAfJZts"
+        },
+        {
+            "id": 184,
+            "title": "kQWHbnRupC"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Operation with templates" classname="Templates" time="0.729">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+server: nginx
+date: Sun, 12 Dec 2021 15:58:04 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+set-cookie: US_SESSID=623d6005c0d4460429fa4db3b3acd1d0; path=/; secure; HttpOnly; SameSite=lax
+expires: Sun, 12 Dec 2021 15:58:04 GMT
+last-modified: Sun, 12 Dec 2021 15:58:04 GMT
+pragma: no-cache
+x-username: ryzhik.sasha@list.ru
+x-userid: 4594492
+x-session-id: 623d6005c0d4460429fa4db3b3acd1d0
+cache-control: max-age=0, must-revalidate, private
+content-encoding: gzip
+x-robots-tag: noindex,nofollow
+x-powered-by: Unisender
+
+{
+    "result": {
+        "template_id": 3971762
+    },
+    "warnings": [
+        
+    ]
+}
+HTTP/1.1 200 OK
+server: nginx
+date: Sun, 12 Dec 2021 15:58:04 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+set-cookie: US_SESSID=47dedb8fe176557a81eafce8b57daf76; path=/; secure; HttpOnly; SameSite=lax
+expires: Sun, 12 Dec 2021 15:58:04 GMT
+last-modified: Sun, 12 Dec 2021 15:58:04 GMT
+pragma: no-cache
+x-username: ryzhik.sasha@list.ru
+x-userid: 4594492
+x-session-id: 47dedb8fe176557a81eafce8b57daf76
+cache-control: max-age=0, must-revalidate, private
+content-encoding: gzip
+x-robots-tag: noindex,nofollow
+x-powered-by: Unisender
+
+{
+    "result": {
+        
+    },
+    "warnings": [
+        
+    ]
+}
+HTTP/1.1 200 OK
+server: nginx
+date: Sun, 12 Dec 2021 15:58:05 GMT
+content-type: application/json; charset=utf-8
+transfer-encoding: chunked
+set-cookie: US_SESSID=c648e03de6b0e6fb9817368b874ecbbc; path=/; secure; HttpOnly; SameSite=lax
+expires: Sun, 12 Dec 2021 15:58:05 GMT
+last-modified: Sun, 12 Dec 2021 15:58:05 GMT
+pragma: no-cache
+x-username: ryzhik.sasha@list.ru
+x-userid: 4594492
+x-session-id: c648e03de6b0e6fb9817368b874ecbbc
+cache-control: max-age=0, must-revalidate, private
+content-encoding: gzip
+x-robots-tag: noindex,nofollow
+x-powered-by: Unisender
+
+{
+    "result": [
+        {
+            "id": 3971762,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://cp.unisender.com/img/template_preview.png",
+            "created": "2021-12-12 15:58:04",
+            "updated": "2021-12-12 15:58:04",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null
+        },
+        {
+            "id": 3971759,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/a93d4000616525a0229f8fb74d5a2620/image/screenshot/spa_user_template/7/1/7/5/9/3971759/screen.png?1639324638",
+            "created": "2021-12-12 15:57:17",
+            "updated": "2021-12-12 15:57:17",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/7/1/7/5/9/3971759/screen.png?1639324638"
+        },
+        {
+            "id": 3971756,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/e8eb98f02708cd0e56ec38c285b2bc74/image/screenshot/spa_user_template/7/1/7/5/6/3971756/screen.png?1639324576",
+            "created": "2021-12-12 15:56:14",
+            "updated": "2021-12-12 15:56:14",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/7/1/7/5/6/3971756/screen.png?1639324576"
+        },
+        {
+            "id": 3932528,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/b3f9f3c8b8559439b0fcc6f5c321459d/image/screenshot/spa_user_template/3/2/5/2/8/3932528/screen.png?1636908737",
+            "created": "2021-11-14 16:52:14",
+            "updated": "2021-11-14 16:52:14",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/3/2/5/2/8/3932528/screen.png?1636908737"
+        },
+        {
+            "id": 3909977,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/6166816452e14e2f69390231dd1b3823/image/screenshot/spa_user_template/0/9/9/7/7/3909977/screen.png?1635239967",
+            "created": "2021-10-26 09:19:25",
+            "updated": "2021-10-26 09:19:25",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/0/9/9/7/7/3909977/screen.png?1635239967"
+        },
+        {
+            "id": 3909206,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/8f743ade430fc0ccfd6a0a22dba22554/image/screenshot/spa_user_template/0/9/2/0/6/3909206/screen.png?1635183768",
+            "created": "2021-10-25 17:42:46",
+            "updated": "2021-10-25 17:42:46",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/0/9/2/0/6/3909206/screen.png?1635183768"
+        },
+        {
+            "id": 3909191,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/7d8b829fc5c1483be3347cfcfdafa73c/image/screenshot/spa_user_template/0/9/1/9/1/3909191/screen.png?1635183054",
+            "created": "2021-10-25 17:30:52",
+            "updated": "2021-10-25 17:30:53",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/0/9/1/9/1/3909191/screen.png?1635183054"
+        },
+        {
+            "id": 3908645,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/077e3e028387764324df3d7ea4937d9e/image/screenshot/spa_user_template/0/8/6/4/5/3908645/screen.png?1635165001",
+            "created": "2021-10-25 12:29:57",
+            "updated": "2021-10-25 12:29:59",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/0/8/6/4/5/3908645/screen.png?1635165001"
+        },
+        {
+            "id": 3890084,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/730569ea7a8b2a7cba16499644a353d6/image/screenshot/spa_user_template/9/0/0/8/4/3890084/screen.png?1633769200",
+            "created": "2021-10-09 08:46:37",
+            "updated": "2021-10-09 08:46:38",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/9/0/0/8/4/3890084/screen.png?1633769200"
+        },
+        {
+            "id": 3890081,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/56fceb8a1c660bf847b447774f965c29/image/screenshot/spa_user_template/9/0/0/8/1/3890081/screen.png?1633769095",
+            "created": "2021-10-09 08:44:54",
+            "updated": "2021-10-09 08:44:54",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/9/0/0/8/1/3890081/screen.png?1633769095"
+        },
+        {
+            "id": 3890012,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/52042908d5163b75c4e186ffa288eb11/image/screenshot/spa_user_template/9/0/0/1/2/3890012/screen.png?1633717296",
+            "created": "2021-10-08 18:15:39",
+            "updated": "2021-10-08 18:21:35",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/9/0/0/1/2/3890012/screen.png?1633717296"
+        },
+        {
+            "id": 3888557,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/b43ace4eb3ba941cedf66e47cd2347b9/image/screenshot/spa_user_template/8/8/5/5/7/3888557/screen.png?1633631966",
+            "created": "2021-10-07 18:39:24",
+            "updated": "2021-10-07 18:39:24",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/5/5/7/3888557/screen.png?1633631966"
+        },
+        {
+            "id": 3888554,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/d3aded36081880c9b7c3a8792b8c3d31/image/screenshot/spa_user_template/8/8/5/5/4/3888554/screen.png?1633631837",
+            "created": "2021-10-07 18:37:16",
+            "updated": "2021-10-07 18:37:16",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/5/5/4/3888554/screen.png?1633631837"
+        },
+        {
+            "id": 3888551,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/90abfe475e9162d77735d8b69ff70244/image/screenshot/spa_user_template/8/8/5/5/1/3888551/screen.png?1633631693",
+            "created": "2021-10-07 18:34:52",
+            "updated": "2021-10-07 18:34:52",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/5/5/1/3888551/screen.png?1633631693"
+        },
+        {
+            "id": 3888521,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/475d4ed969dbb2ddfd085ca1c7b24de7/image/screenshot/spa_user_template/8/8/5/2/1/3888521/screen.png?1633627678",
+            "created": "2021-10-07 17:27:56",
+            "updated": "2021-10-07 17:27:57",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/5/2/1/3888521/screen.png?1633627678"
+        },
+        {
+            "id": 3888515,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/8e5abd92fa8c5485d184499e675d312d/image/screenshot/spa_user_template/8/8/5/1/5/3888515/screen.png?1633627566",
+            "created": "2021-10-07 17:26:04",
+            "updated": "2021-10-07 17:26:04",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/5/1/5/3888515/screen.png?1633627566"
+        },
+        {
+            "id": 3888512,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/0b6f03f31220367f76fa0247ea7e2d1b/image/screenshot/spa_user_template/8/8/5/1/2/3888512/screen.png?1633626978",
+            "created": "2021-10-07 17:16:16",
+            "updated": "2021-10-07 17:16:16",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/5/1/2/3888512/screen.png?1633626978"
+        },
+        {
+            "id": 3888509,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/ef31f19166468455eb3ea7f6751d2d30/image/screenshot/spa_user_template/8/8/5/0/9/3888509/screen.png?1633626808",
+            "created": "2021-10-07 17:13:26",
+            "updated": "2021-10-07 17:13:26",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/5/0/9/3888509/screen.png?1633626808"
+        },
+        {
+            "id": 3888491,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/c811cc5fef8d636ef7fbb0cd136f2f56/image/screenshot/spa_user_template/8/8/4/9/1/3888491/screen.png?1633624690",
+            "created": "2021-10-07 16:38:08",
+            "updated": "2021-10-07 16:38:09",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/4/9/1/3888491/screen.png?1633624690"
+        },
+        {
+            "id": 3888485,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/02bc6ce136a6a801563dd0ca3ffe7f66/image/screenshot/spa_user_template/8/8/4/8/5/3888485/screen.png?1633624014",
+            "created": "2021-10-07 16:26:53",
+            "updated": "2021-10-07 16:26:53",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/4/8/5/3888485/screen.png?1633624014"
+        },
+        {
+            "id": 3888332,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/00452cbeb33f46d097f2808b3614eb18/image/screenshot/spa_user_template/8/8/3/3/2/3888332/screen.png?1633614474",
+            "created": "2021-10-07 13:47:52",
+            "updated": "2021-10-07 13:47:52",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/3/3/2/3888332/screen.png?1633614474"
+        },
+        {
+            "id": 3888308,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/13125a289f176c554c5b6d12129c6480/image/screenshot/spa_user_template/8/8/3/0/8/3888308/screen.png?1633614004",
+            "created": "2021-10-07 13:40:02",
+            "updated": "2021-10-07 13:40:03",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/3/0/8/3888308/screen.png?1633614004"
+        },
+        {
+            "id": 3888266,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/45c0a1913dc40dc565db789533ad0914/image/screenshot/spa_user_template/8/8/2/6/6/3888266/screen.png?1633613266",
+            "created": "2021-10-07 13:27:44",
+            "updated": "2021-10-07 13:27:45",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/2/6/6/3888266/screen.png?1633613266"
+        },
+        {
+            "id": 3888260,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/ea006a8ba29fdbfddfdfd50ba6559bb1/image/screenshot/spa_user_template/8/8/2/6/0/3888260/screen.png?1633613212",
+            "created": "2021-10-07 13:26:51",
+            "updated": "2021-10-07 13:26:51",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/2/6/0/3888260/screen.png?1633613212"
+        },
+        {
+            "id": 3888254,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/bafc033d8f1cee6aa3c95ad9b23ddc71/image/screenshot/spa_user_template/8/8/2/5/4/3888254/screen.png?1633613089",
+            "created": "2021-10-07 13:24:47",
+            "updated": "2021-10-07 13:24:48",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/2/5/4/3888254/screen.png?1633613089"
+        },
+        {
+            "id": 3888233,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/6da2b5cce2a5f30daf7723119c9562fb/image/screenshot/spa_user_template/8/8/2/3/3/3888233/screen.png?1633612331",
+            "created": "2021-10-07 13:12:09",
+            "updated": "2021-10-07 13:12:09",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/2/3/3/3888233/screen.png?1633612331"
+        },
+        {
+            "id": 3888197,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/ee67739b6a59837131ab5947e18900e3/image/screenshot/spa_user_template/8/8/1/9/7/3888197/screen.png?1633611401",
+            "created": "2021-10-07 12:56:39",
+            "updated": "2021-10-07 12:56:40",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/1/9/7/3888197/screen.png?1633611401"
+        },
+        {
+            "id": 3888161,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/6144b7b1975c8169bb932c9f70a809ca/image/screenshot/spa_user_template/8/8/1/6/1/3888161/screen.png?1633610730",
+            "created": "2021-10-07 12:45:28",
+            "updated": "2021-10-07 12:45:29",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/1/6/1/3888161/screen.png?1633610730"
+        },
+        {
+            "id": 3888011,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/07d64127bd65a28bd44ea6bb85db4c7a/image/screenshot/spa_user_template/8/8/0/1/1/3888011/screen.png?1633608384",
+            "created": "2021-10-07 12:06:23",
+            "updated": "2021-10-07 12:06:23",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/0/1/1/3888011/screen.png?1633608384"
+        },
+        {
+            "id": 3888002,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/0c9ed8caa920c240e62c9f37fc624185/image/screenshot/spa_user_template/8/8/0/0/2/3888002/screen.png?1633608103",
+            "created": "2021-10-07 12:01:41",
+            "updated": "2021-10-07 12:01:42",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/8/0/0/2/3888002/screen.png?1633608103"
+        },
+        {
+            "id": 3887993,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/c127e8ef4289e7bc5124267e5aaae955/image/screenshot/spa_user_template/8/7/9/9/3/3887993/screen.png?1633607727",
+            "created": "2021-10-07 11:55:22",
+            "updated": "2021-10-07 11:55:25",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/9/9/3/3887993/screen.png?1633607727"
+        },
+        {
+            "id": 3887963,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/3040aad5217a8ef7c2fbbd5fd117d0a4/image/screenshot/spa_user_template/8/7/9/6/3/3887963/screen.png?1633606829",
+            "created": "2021-10-07 11:40:28",
+            "updated": "2021-10-07 11:40:28",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/9/6/3/3887963/screen.png?1633606829"
+        },
+        {
+            "id": 3887939,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/5350ad19c0ccb3564b1ec9988f355d0f/image/screenshot/spa_user_template/8/7/9/3/9/3887939/screen.png?1633605779",
+            "created": "2021-10-07 11:22:57",
+            "updated": "2021-10-07 11:22:58",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/9/3/9/3887939/screen.png?1633605779"
+        },
+        {
+            "id": 3887927,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/9d380208bbbd03adf6ae43bfa8737701/image/screenshot/spa_user_template/8/7/9/2/7/3887927/screen.png?1633605560",
+            "created": "2021-10-07 11:19:17",
+            "updated": "2021-10-07 11:19:19",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/9/2/7/3887927/screen.png?1633605560"
+        },
+        {
+            "id": 3887900,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/5b82bb3df686e9d12b341602572cf999/image/screenshot/spa_user_template/8/7/9/0/0/3887900/screen.png?1633604880",
+            "created": "2021-10-07 11:07:59",
+            "updated": "2021-10-07 11:07:59",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/9/0/0/3887900/screen.png?1633604880"
+        },
+        {
+            "id": 3887879,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/33d5c7065b099fc6bc8bd05f2a4f03ef/image/screenshot/spa_user_template/8/7/8/7/9/3887879/screen.png?1633604171",
+            "created": "2021-10-07 10:56:07",
+            "updated": "2021-10-07 10:56:10",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/8/7/9/3887879/screen.png?1633604171"
+        },
+        {
+            "id": 3887126,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/b02fb7136566a9ac2bfbe1b0b19789b3/image/screenshot/spa_user_template/8/7/1/2/6/3887126/screen.png?1633550566",
+            "created": "2021-10-06 20:02:44",
+            "updated": "2021-10-06 20:02:44",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Р’Р°Рј РїРѕР»Р°РіР°РµС‚СЃСЏ СЃРєРёРґРєР° 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/1/2/6/3887126/screen.png?1633550566"
+        },
+        {
+            "id": 3887123,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/60961769d2eb6ba4bab78ca63c18c59c/image/screenshot/spa_user_template/8/7/1/2/3/3887123/screen.png?1633550260",
+            "created": "2021-10-06 19:57:36",
+            "updated": "2021-10-06 19:57:39",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Р’Р°Рј РїРѕР»Р°РіР°РµС‚СЃСЏ СЃРєРёРґРєР° 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/1/2/3/3887123/screen.png?1633550260"
+        },
+        {
+            "id": 3887102,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/39974373ec8f4f7bcc0d10a74c44fc95/image/screenshot/spa_user_template/8/7/1/0/2/3887102/screen.png?1633549129",
+            "created": "2021-10-06 19:38:47",
+            "updated": "2021-10-06 19:38:48",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Р’Р°Рј РїРѕР»Р°РіР°РµС‚СЃСЏ СЃРєРёРґРєР° 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/1/0/2/3887102/screen.png?1633549129"
+        },
+        {
+            "id": 3887090,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/a59198188bdf0b8196bb160c9322eb1e/image/screenshot/spa_user_template/8/7/0/9/0/3887090/screen.png?1633548559",
+            "created": "2021-10-06 19:29:17",
+            "updated": "2021-10-06 19:29:17",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Р’Р°Рј РїРѕР»Р°РіР°РµС‚СЃСЏ СЃРєРёРґРєР° 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/0/9/0/3887090/screen.png?1633548559"
+        },
+        {
+            "id": 3887081,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/5fd437aa6f2371eec63ce06c629ec2d6/image/screenshot/spa_user_template/8/7/0/8/1/3887081/screen.png?1633548157",
+            "created": "2021-10-06 19:22:34",
+            "updated": "2021-10-06 19:22:36",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Р’Р°Рј РїРѕР»Р°РіР°РµС‚СЃСЏ СЃРєРёРґРєР° 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/0/8/1/3887081/screen.png?1633548157"
+        },
+        {
+            "id": 3887078,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/1f71867a070c6f9238694e24a2fd461b/image/screenshot/spa_user_template/8/7/0/7/8/3887078/screen.png?1633547281",
+            "created": "2021-10-06 19:08:00",
+            "updated": "2021-10-06 19:08:00",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Р’Р°Рј РїРѕР»Р°РіР°РµС‚СЃСЏ СЃРєРёРґРєР° 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/0/7/8/3887078/screen.png?1633547281"
+        },
+        {
+            "id": 3887072,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/5c2839ffeaac20517be1c79333cb0940/image/screenshot/spa_user_template/8/7/0/7/2/3887072/screen.png?1633547105",
+            "created": "2021-10-06 19:05:03",
+            "updated": "2021-10-06 19:05:04",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/8/7/0/7/2/3887072/screen.png?1633547105"
+        },
+        {
+            "id": 3864467,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/a430cb78ddee0fbed4186358f916bb94/image/screenshot/spa_user_template/6/4/4/6/7/3864467/screen.png?1632071645",
+            "created": "2021-09-19 17:14:02",
+            "updated": "2021-09-19 17:14:03",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/6/4/4/6/7/3864467/screen.png?1632071645"
+        },
+        {
+            "id": 3864206,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/b7c3802f30fc2d0ca3acb46ce1ca651b/image/screenshot/spa_user_template/6/4/2/0/6/3864206/screen.png?1631993936",
+            "created": "2021-09-18 19:38:54",
+            "updated": "2021-09-18 19:38:54",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/6/4/2/0/6/3864206/screen.png?1631993936"
+        },
+        {
+            "id": 3864203,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/63ef8f59c08f50151bc9db7fa1efbb6e/image/screenshot/spa_user_template/6/4/2/0/3/3864203/screen.png?1631993915",
+            "created": "2021-09-18 19:38:32",
+            "updated": "2021-09-18 19:38:33",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/6/4/2/0/3/3864203/screen.png?1631993915"
+        },
+        {
+            "id": 3864200,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/4c307f05da4f02550e3051d6f9a0b2a4/image/screenshot/spa_user_template/6/4/2/0/0/3864200/screen.png?1631992053",
+            "created": "2021-09-18 19:07:28",
+            "updated": "2021-09-18 19:07:31",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/6/4/2/0/0/3864200/screen.png?1631992053"
+        },
+        {
+            "id": 3864197,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/4a30f125f8892d354bdd1cdad1619d06/image/screenshot/spa_user_template/6/4/1/9/7/3864197/screen.png?1631991015",
+            "created": "2021-09-18 18:50:13",
+            "updated": "2021-09-18 18:50:13",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/6/4/1/9/7/3864197/screen.png?1631991015"
+        },
+        {
+            "id": 3864194,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/29086f2ab565e3f7dd12684b2824c1ba/image/screenshot/spa_user_template/6/4/1/9/4/3864194/screen.png?1631987964",
+            "created": "2021-09-18 17:59:21",
+            "updated": "2021-09-18 17:59:22",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/6/4/1/9/4/3864194/screen.png?1631987964"
+        },
+        {
+            "id": 3864191,
+            "sub_user_login": "",
+            "title": "Autumn sale steam 2021",
+            "lang_code": "ru",
+            "subject": "Sale",
+            "attachments": "",
+            "screenshot_url": "https://imgrsz.unisender.com/resize/uniscreenshotter.storage.unisender.com/r/150x150/fc75659eaa0c79f66dca13ec05af4a15/image/screenshot/spa_user_template/6/4/1/9/1/3864191/screen.png?1631987483",
+            "created": "2021-09-18 17:51:21",
+            "updated": "2021-09-18 17:51:22",
+            "message_format": "raw_html",
+            "type": "user",
+            "body": "<p>Вам полагается скидка 10%</p>",
+            "raw_body": null,
+            "fullsize_screenshot_url": "https://uniscreenshotter.storage.unisender.com/image/screenshot/spa_user_template/6/4/1/9/1/3864191/screen.png?1631987483"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>

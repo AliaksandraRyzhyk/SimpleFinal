@@ -1,0 +1,9 @@
+steps\contactList\DeleteListTest.class
+steps\contactList\UpdateListTest.class
+runner\RunnerTest.class
+steps\emailTemplate\GetTemplates.class
+steps\auth\AuthWithToken.class
+steps\emailTemplate\UpdateEmailTemplate.class
+steps\contactList\CreateListTest.class
+steps\emailTemplate\CreateEmailTemplate.class
+steps\contactList\GetListTest.class

@@ -1,0 +1,9 @@
+E:\IT academy\Финальный проект\SimpleFinal\src\test\java\runner\RunnerTest.java
+E:\IT academy\Финальный проект\SimpleFinal\src\test\java\steps\emailTemplate\UpdateEmailTemplate.java
+E:\IT academy\Финальный проект\SimpleFinal\src\test\java\steps\emailTemplate\GetTemplates.java
+E:\IT academy\Финальный проект\SimpleFinal\src\test\java\steps\auth\AuthWithToken.java
+E:\IT academy\Финальный проект\SimpleFinal\src\test\java\steps\contactList\GetListTest.java
+E:\IT academy\Финальный проект\SimpleFinal\src\test\java\steps\emailTemplate\CreateEmailTemplate.java
+E:\IT academy\Финальный проект\SimpleFinal\src\test\java\steps\contactList\CreateListTest.java
+E:\IT academy\Финальный проект\SimpleFinal\src\test\java\steps\contactList\UpdateListTest.java
+E:\IT academy\Финальный проект\SimpleFinal\src\test\java\steps\contactList\DeleteListTest.java
